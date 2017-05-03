@@ -19,7 +19,7 @@ class DirectorsController < ApplicationController
 
     @director.save
 
-    render("show_details")
+    render("show")
   end
 
   def edit_form
